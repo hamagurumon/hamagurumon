@@ -1,0 +1,21 @@
+Create config/secrets.js and set tokens
+
+module.exports = {
+  from_token: "<BOT_A_TOKEN>",
+  to_token: "<BOT_B_TOKEN>"
+}
+Install dependencies & Run bots
+
+$ npm install
+$ npm run start
+To start the bot in the current guild, Send &trans command in Discord
+
+# Select channels and start the transfer
+&trans
+
+# Join by specifying the channel names argument
+&trans [FromChannelName] [ToChannelName]
+
+# Leave channels and end the transfer
+&leave
+— 📣 —
